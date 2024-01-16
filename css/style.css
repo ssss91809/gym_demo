@@ -1,0 +1,95 @@
+body {
+    background-image: url("../picture/7.jfif.crdownload");
+    background-size: contain;
+    background-color: #176B87;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sub-title {
+    width: 350px;
+    /* inline, block, inline-block */
+    display: inline-block;
+    background-color: #86B6F6;
+    color: #176B87;
+    /* px=pixel */
+    font-size: 32px;
+    font-family: '標楷體';
+    border: rgb(17, 17, 17) 2px solid;
+    padding-left: 12px;
+    margin: 2rem;
+}
+
+
+
+.title {
+    /* left, right, center */
+    text-align: center;
+    color: rgb(116, 116, 224);
+    background-color: rgb(175, 211, 212);
+    font-size: 3rem;
+    /* 1rem=16px */
+    font-family: '標楷體';
+    border-radius: 10px;
+    /* 上  右  下  左 */
+    /* 上下 左右 */
+    margin: 24px 36px;
+    /* 內間距 */
+    padding: 12px;
+}
+
+form {
+    background-color: #FFECD6;
+    background-image: url("../picture/2.jpg");
+    background-size: cover;
+    color: black;
+    padding: 1rem 0px;
+    border-radius: 5%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+input {
+    background-color: #D2E3C8;
+}
+
+.user {}
+
+button {
+    background-color: #4F6F52;
+    border-radius: 10%;
+    width: 100px;
+    color: aliceblue;
+}
+
+a {
+    color: chartreuse;
+}
+
+
+a:hover {
+    color: coral;
+}
+
+a:active {
+    color: #EEF5FF;
+}
+
+
+@media screen and (max-width:1024px) {
+    form {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    table{
+        width:100%;
+    }
+    form{
+        width:100%;
+        font-size: 12px;
+    }
+}

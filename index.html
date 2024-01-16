@@ -6,49 +6,13 @@
     <meta charset="utf-8">
     <title>首頁</title>
     <!-- Ctrl + / 是註解 -->
+    <link rel="stylesheet" href="css/style.css">
     <style>
-        .title {
-            /* left, right, center */
-            text-align: center;
-            color: rgb(116, 116, 224);
-            background-color: rgb(175, 211, 212);
-            font-size: 3rem;
-            /* 1rem=16px */
-            font-family: '標楷體';
-            border-radius: 10px;
-            /* 上  右  下  左 */
-            /* 上下 左右 */
-            margin: 24px 36px;
-            /* 內間距 */
-            padding: 12px;
-        }
-
-        .sub-title {
-            width: 350px;
-            /* inline, block, inline-block */
-            display: inline-block;
-            background-color: #86B6F6;
-            color: #176B87;
-            /* px=pixel */
-            font-size: 32px;
-            font-family: '標楷體';
-            border: rgb(17, 17, 17) 2px solid;
-            padding-left: 12px;
-            margin: 2rem;
-        }
-
         .eng-title {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
-        body {
-            background-image: url("picture/3.jpg");
-            background-size: contain;
-            background-color: #176B87;
-            color: aliceblue;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-        }
 
         #info {
             background: #EEF5FF;
@@ -113,43 +77,6 @@
 
         #post {
             text-align: center;
-        }
-
-        form {
-            background-color: #FFECD6;
-            background-image: url("picture/1.jpg");
-            background-size: cover;
-            color: black;
-            padding: 1rem 0px;
-            border-radius: 5%;
-            margin: 5% auto;
-        }
-
-        input {
-            background-color: #D2E3C8;
-        }
-
-        .user {}
-
-        button {
-            background-color: #4F6F52;
-            border-radius: 10%;
-            width: 100px;
-            color: aliceblue;
-        }
-
-        a {
-            color: chartreuse;
-        }
-
-
-        a:hover {
-            color: coral;
-        }
-
-        a:active {
-            color: #EEF5FF;
-        }
         }
     </style>
 </head>
@@ -268,7 +195,7 @@
 
             <li><b>
 
-                    <a href="bmi.html">計算BMI:&nbsp;&nbsp;</a> </b>
+                    <a target="_blank" href="bmi.html">計算BMI:&nbsp;&nbsp;</a> </b>
                 一位民眾身高160公分，體重65公斤，<u>BMI25.4kg/m2(=65÷1.6÷1.6)</u>，體重屬於「過重」。
             </li>
             <br>
@@ -306,7 +233,8 @@
                 <label for="password">密碼: </label>
                 <input type="password" id="password" name="password" required>
 
-                <button type="submit"> 登入 </button>
+                <br>
+                <br><button type="submit"> 登入 </button>
                 <br>
             </div>
             <div id="post">
